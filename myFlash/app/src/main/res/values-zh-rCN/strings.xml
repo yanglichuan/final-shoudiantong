@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">闪电手电筒</string>
+    <string name="autoopen">自动开启LED灯光</string>
+    <string name="ScreenLight">屏幕灯光</string>
+    <string name="WarningLight">警示灯</string>
+    <string name="PoliceLight">警灯</string>
+    <string name="SOSLight">SOS求救信号</string>
+    <string name="auto">自动启动</string>
+    <string name="screencolor">选择颜色</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+</resources>

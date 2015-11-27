@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flashlight</string>
+    <string name="autoopen">Auto open LED flashlight</string>
+
+    <string name="ScreenLight">Screen Light</string>
+    <string name="WarningLight">Warning Light</string>
+    <string name="PoliceLight">Police Light</string>
+    <string name="SOSLight">SOS Light</string>
+    <string name="auto">Auto Light On</string>
+    <string name="screencolor">Select Color</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+</resources>

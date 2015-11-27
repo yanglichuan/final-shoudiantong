@@ -1,0 +1,30 @@
+<com.flashlightfree.view.RevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reveal_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ff00"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="32sp" />
+
+
+    <!--初始显示的是这个-->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="32sp" />
+
+</com.flashlightfree.view.RevealLayout>

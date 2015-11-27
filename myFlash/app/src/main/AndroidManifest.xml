@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oas.sc.myflash" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+
+    <application
+        android:allowBackup="true"
+        android:name="com.flashlightfree.App"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.flashlightfree.activity.MainActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen"
+            android:name="com.flashlightfree.activity.FunScreenColor"/>
+
+        <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen"
+            android:name="com.flashlightfree.activity.FunAlarm"/>
+
+        <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen"
+            android:name="com.flashlightfree.activity.FunPlice"/>
+
+        <activity android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeFullScreen"
+            android:name="com.flashlightfree.activity.FunSos"/>
+
+
+        <meta-data android:value="56318bc0e0f55a7730000417" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="oas" android:name="UMENG_CHANNEL"/>
+
+    </application>
+
+</manifest>

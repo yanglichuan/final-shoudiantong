@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlashLight</string>
+    <string name="autoopen">LED ışıklar otomatik olarak açmak</string>
+    <string name="ScreenLight">Ekran Işığı</string>
+    <string name="WarningLight">Uyarı Işığı</string>
+    <string name="PoliceLight">Polis Işığı</string>
+    <string name="SOSLight">SOS Acil Yardım Sinyali</string>
+    <string name="auto">Otomatik Başlat</string>
+    <string name="screencolor">Renk seç</string>
+    <string name="ok">saptamak</string>
+    <string name="cancel">iptal etmek</string>
+
+    <string name="drawer_open">Açık</string>
+    <string name="drawer_close">Kapat</string>
+
+</resources>

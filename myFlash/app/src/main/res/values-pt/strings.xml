@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlashLight</string>
+    <string name="autoopen">Luzes LED ligar automaticamente</string>
+    <string name="ScreenLight">Luz de ecrã integrada</string>
+    <string name="WarningLight">Luz de alerta</string>
+    <string name="PoliceLight">Luz policia</string>
+    <string name="SOSLight">Sinal de pedido de socorro "SOS"</string>
+    <string name="auto">Partida Automática</string>
+    <string name="screencolor">Escolha Cor</string>
+    <string name="ok">determinar</string>
+    <string name="cancel">cancelar</string>
+
+    <string name="drawer_open">aberto</string>
+    <string name="drawer_close">próximo</string>
+
+</resources>
